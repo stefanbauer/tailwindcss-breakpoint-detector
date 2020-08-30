@@ -28,7 +28,7 @@ class InjectDetector
             // no-op.
         }
 
-        if (!$response instanceof Response) {
+        if (! $response instanceof Response) {
             return $next($request);
         }
 
