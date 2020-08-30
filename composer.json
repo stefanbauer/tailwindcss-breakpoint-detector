@@ -1,0 +1,49 @@
+{
+    "name": "stefanbauer/tailwindcss-breakpoint-detector",
+    "description": "",
+    "keywords": [
+        "stefanbauer",
+        "tailwindcss-breakpoint-detector"
+    ],
+    "homepage": "https://github.com/stefanbauer/tailwindcss-breakpoint-detector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Bauer",
+            "email": "mail@stefanbauer.me",
+            "homepage": "https://stefanbauer.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "StefanBauer\\TailwindcssBreakpointDetector\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StefanBauer\\TailwindcssBreakpointDetector\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StefanBauer\\TailwindcssBreakpointDetector\\TailwindcssBreakpointDetectorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
