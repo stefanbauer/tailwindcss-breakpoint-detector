@@ -1,8 +1,10 @@
 {
     "name": "stefanbauer/tailwindcss-breakpoint-detector",
-    "description": "",
+    "description": "A package to display TailwindCSS breakpoints on the fly",
     "keywords": [
         "stefanbauer",
+        "tailwindcss",
+        "laravel",
         "tailwindcss-breakpoint-detector"
     ],
     "homepage": "https://github.com/stefanbauer/tailwindcss-breakpoint-detector",
